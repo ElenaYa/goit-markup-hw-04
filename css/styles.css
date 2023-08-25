@@ -23,13 +23,13 @@ ul {
 }
 
 ul {
-  margin: 0;
   padding-left: 0;
   list-style-type: none;
 }
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -59,18 +59,24 @@ img {
 .nav-container {
   display: flex;
   align-items: center;
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .list-link {
   display: flex;
-  gap: 40px;
+  column-gap: 40px;
 }
 .list-nav {
   padding: 24px 0;
 }
 .address-list {
   display: flex;
-  gap: 40px;
+  column-gap: 40px;
 }
 
 .logo {
@@ -86,14 +92,6 @@ img {
 }
 .logo-studio {
   color: #2e2f42;
-}
-.nav-container {
-  color: #2e2f42;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
 }
 .nav-link {
   color: #2e2f42;
